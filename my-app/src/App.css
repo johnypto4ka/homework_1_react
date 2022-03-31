@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+
+  background: url(../src/img/formula.jpg) no-repeat;
+	font-family: Montserrat;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+

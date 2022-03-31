@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+}
+.header__logo {
+    height: 150px;
+    width: 300px;
+    background: url(/src/Yokohama\ Tires.svg) center no-repeat;
+}
+.header__menu {
+    margin-top: 40px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    background: rgba(255, 28, 28, 0.322);
+    list-style-type: none;
+	margin: 10px 5px;
+    padding: 5px 15px ;
+	border-radius: 5px;
+	border: 2px solid transparent;
+}
+li:hover {
+    border: 2px solid #FFB800;
+}
